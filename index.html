@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATS</title>
+    <link rel="stylesheet" href="syle.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    .font-adlam{
+        font-family: "ADLaM Display", serif;
+    } 
+    .image{
+     margin-left: 300px;
+     margin-top: -100px;
+     
+    
+    }
+    </style>
+    <!-- custom colors -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              color: '#FFDC26',
+              backround:'#FFF9F4',
+              brdr:'#000000',
+            }
+          }
+        }
+      }
+    </script>
+    </head>
+   <body class="font-adlam">
+   <header class="container mx-auto">
+          <nav class="border-b-2 border-brdr">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      
+                    </div>
+                   
+                  </div>
+                  <div> <img class="w-6 h-6" src="c1-assets/logo-header.png" alt=""></div>
+                  <h2 class="sm:hidden lg:inline font-bold">Browse<span class="text-color">4</span>Pets</h2>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find A Pets</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <div class="hidden lg:flex">
+                    <div class="mt-3 pr-10">
+                      <i class="fa-regular fa-bell pr-7"></i>
+                    <i class="fa fa-magnifying-glass"></i>
+                    </div>
+                    <div class="gap-1.5">
+                      <a class="btn border-solid border-color w-15 h-5 " href="">Login</a>
+                  <a class="btn w-15 h-2 bg-color">Register</a>
+                    </div>
+                </div>
+                  <svg 
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 lg:hidden"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                </div>
+              </div>
+               </nav>
+                <!-- banner -->
+               <div class="">
+                <div  class="mt-20">
+                  <h2 class="text-4xl pb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
+                  <p class="text-base text-zinc-500 pb-4">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p> 
+                  <button class="btn bg-color ">Find A Pet</button>
+
+                </div>
+                
+                <div class="image"><img src="c1-assets/cat.png" alt=""></div>
+               </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
