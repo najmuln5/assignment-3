@@ -20,12 +20,10 @@
     .font-adlam{
         font-family: "ADLaM Display", serif;
     } 
-    .image{
-     margin-left: 300px;
-     margin-top: -100px;
-     
-    
+    .bbbn{
+      background-image:url(c1-assets/cat-big.png);
     }
+  
     </style>
     <!-- custom colors -->
     <script>
@@ -37,6 +35,13 @@
               color: '#FFDC26',
               backround:'#FFF9F4',
               brdr:'#000000',
+              bgcolor: '#F9DF8A',
+              color1: '#f9a8d4',
+              color2: '#bae6fd',
+              color3:'#fef08a',
+              color4: '#fef9c3'
+            
+              
             }
           }
         }
@@ -91,22 +96,104 @@
               </div>
                </nav>
                 <!-- banner -->
-               <div class="">
-                <div  class="mt-20">
+              
+                <div  class=" bg-contain bg-cneter bg-[url('/img/bbbn')]">
+                  
                   <h2 class="text-4xl pb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
                   <p class="text-base text-zinc-500 pb-4">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p> 
                   <button class="btn bg-color ">Find A Pet</button>
-
-                </div>
-                
-                <div class="image"><img src="c1-assets/cat.png" alt=""></div>
-               </div>
+                  
+                  
+                </div>         
 
     </header>
-    <main>
+    <main class="container mx-auto">
+      <!-- section 1 -->
+      <section class="mt-20 container mx-auto">
+        <h2 class="font-bold text-2xl">Browse By Categories</h2>
+        
+        <div class=" grid grid-cols-2 gap-y-3  lg:flex gap-36 mt-10  ">
+        <div class="bg-bgcolor w-20">
+             <div class="pl-4 ">
+            <img class="" src="c1-assets/dog-cartoon.png" alt="">
+            </div>
+            <h2 class="pl-4">Dog</h2>
+            <p class="pl-4 text-xs text-zinc-500">3 item</p>
+            </div>
 
+            <div class="bg-bgcolor w-20">
+              <div class="pl-4 ">
+             <img class="" src="c1-assets/cat-cartoon.png" alt="">
+             </div>
+             <h2 class="pl-4">Cat</h2>
+             <p class="pl-4 text-xs text-zinc-500">3 item</p>
+             </div>
+
+             <div class="bg-bgcolor w-20">
+              <div class="pl-4 ">
+             <img class="" src="c1-assets/bird-cartoon.png" alt="">
+             </div>
+             <h2 class="pl-4">Bird</h2>
+             <p class="pl-4 text-xs text-zinc-500">3 item</p>
+             </div>
+
+             <div class="bg-bgcolor w-20">
+              <div class="pl-4 ">
+             <img class="" src="c1-assets/fish-cartoon.png" alt="">
+             </div>
+             <h2 class="pl-4">Fish</h2>
+             <p class="pl-4 text-xs text-zinc-500">3 item</p>
+             </div>
+
+             <div class="bg-bgcolor w-20">
+              <div class="pl-4 ">
+             <img class="" src="c1-assets/mouse-cartoon.png" alt="">
+             </div>
+             <h2 class="pl-4">Small pets</h2>
+             <p class="pl-4 text-xs text-zinc-500">3 item</p>
+             </div>
+
+             <div class="bg-bgcolor w-20">
+              <div class="pl-4 ">
+             <img class="" src="c1-assets/rabbit-cartoon.png" alt="">
+             </div>
+             <h2 class="pl-4">Rabbit</h2>
+             <p class="pl-4 text-xs text-zinc-500">3 item</p>
+             </div>
+            
+            </div>
+      </section>
+      <!-- section 2 -->
+               <section>
+                <h2 class="font-bold text-2xl mt-20">Everyday Low Price </h2>
+                <div class= " lg:flex gap-2"  >
+                  <div class="flex bg-cover bg-center bg-gradient-to-l from-color2 to-color1 rounded-2">
+                    <div class="mt-56 pl-20">
+                    <h3 class="text-base ">Under Price</h3>
+                    <h2 class="font-bold text-2xl">pett grooming mitt</h2>
+                    <p class="textt-xl text-zinc-50">(Easy Hair Removable)</p>
+                    <h3 class="font-bold text-4xl">$7.99</h3>
+                    </div>
+                    <div class="pl-2"><img src="c1-assets/cute-dog-mid.png" alt=""></div>
+                  
+
+                  </div>
+                  <div class="bg-cover bg-center bg-gradient-to-l from-color3 to-color4">
+                    <div class=" pr-10 mt-10 pl-20 lg:mt-56">
+                    <h3 class="font-bold text-2xl">T-shirt for dog</h3>
+                    <h2 class="font-bold text-4xl">$7.99</h2>
+                   </div>
+                    <div class="pl-60">
+                    <img src="c1-assets/cute-pet-mid.png" alt="">
+                  </div>
+                 
+                </div>
+
+                </div>
+
+               </section>
     </main>
-    <footer>
+    <footer class="container mx-auto">
         
     </footer>
     
